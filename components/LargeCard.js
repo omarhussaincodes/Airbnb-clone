@@ -6,6 +6,7 @@ function LargeCard({ img, title, description, buttonText }) {
     <section className='relative py-8 cursor-pointer lg:mt-10 lg:active:animate-bounce transition transform duration-2000 ease-linear'>
       <div className='relative h-96 min-w-[300px]'>
         <Image
+          alt='banner-image'
           className='rounded-2xl'
           src={img}
           objectFit='cover'

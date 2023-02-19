@@ -7,6 +7,7 @@ function SmallCard({ data }) {
         hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-in-out'>
             <div className='relative h-16 w-16'>
                 <Image
+                    alt='small-card.img'
                     className='rounded-lg'
                     src={data.img}
                     layout='fill'

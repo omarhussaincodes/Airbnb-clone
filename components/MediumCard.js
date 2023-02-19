@@ -6,6 +6,7 @@ function MediumCard({ title, img }) {
         <div className='cursor-pointer hover:scale-105 transition transform duration-300 ease-out'>
             <div className='relative h-60 w-60'>
                 <Image
+                    alt='medium-card-img'
                     className='rounded-lg'
                     src={img}
                     layout='fill'

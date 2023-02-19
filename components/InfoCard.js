@@ -11,6 +11,7 @@ function InfoCard(props) {
 
             <div className='relative rounded-lg h-40 w-24 md:h-52 md:w-80 flex-shrink-0'>
                 <Image
+                    alt='info-card-img'
                     className='rounded-xl'
                     src={img}
                     layout='fill'
