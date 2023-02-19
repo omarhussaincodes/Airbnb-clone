@@ -64,7 +64,7 @@ function Header({ placeholder }) {
             </div>
 
             {/* Middle */}
-            <div className='flex items-center rounded-full py-2 md:border-2 md:shadow-sm  hover:border-red-400'>
+            <div className='flex items-center rounded-full px-2 py-2 md:border-2 md:shadow-sm  hover:border-red-400'>
                 <input name='searchInput' value={searchInput} onChange={(e) => setInputState(e.target.value)}
                  className='flex-grow text-sm text-gray-600 placeholder-gray-400 pl-2 bg-transparent
                  outline-none md:border-none caret-red-400' type='text'
